@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:ital,wght@0,300;0,400;0,500;1,500&family=Ubuntu:wght@300;500;700&display=swap');
+
+.carousel-btn {
+    background-color:
+        #289BDE;
+    border: 1px solid #289BDE;
+    width: 182px;
+    height: 56px;
+}
+
+.courses-img img {
+    width: 200px;
+    height: 200px;
+}
+
+.carousel-see-more-btn {
+    background-color:
+        #289BDE;
+    border: 1px solid #289BDE;
+    width: 248px;
+    height: 56px;
+}
+
+.price {
+    color: #289BDE;
+
+}
+
+strong {
+    color: #777777;
+    font-weight: 400;
+    font-size: 16px;
+
+}
+
+.logoname {
+    font-weight: 600;
+    font-size: 40px;
+}
