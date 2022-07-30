@@ -15,35 +15,26 @@
     <section class="container">
         <header>
             <nav class="navbar navbar-expand-lg bg-light">
-                <div class="container-fluid d-flex justify-content-between p-0">
-                    <div class="collapse navbar-collapse ">
-                        <a class="navbar-brand logoname" href="#">Learner Academy</a>
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
-                            aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                    </div>
-                    <div class="collapse navbar-collapse " id="navbarNav">
-                        <ul class="navbar-nav gap-5">
+                <div class="container-fluid">
+                    <a class="navbar-brand logoname" href="#">Learner Academy</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                             <li class="nav-item">
                                 <a class="nav-link active" aria-current="page" href="#">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Courses</a>
+                                <a class="nav-link" href="#">Link</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">About</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Register</a>
-                            </li>
+
                         </ul>
-                        
-                    </div>
-                    <div>
-                        <form class="float-right" role="search">
-                            <input class="btn btn-outline-info px-4 py-2" type="button" value="Register">
+                        <form class="d-flex" role="search">
+
+                            <button class="btn btn-outline-info" type="submit">Register</button>
                         </form>
                     </div>
                 </div>
@@ -54,32 +45,39 @@
         <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="images/cover/cover-1.png" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block d-flex align-items-center">
-                        <h1>Get Started Digital Learning</h1>
-                        <p>It is a long established fact that a reader will be distracted by the readable content of a
-                            page when looking at its layout.</p>
-                        <button class="btn btn-primary carousel-btn fs-5" type="submit">Get Started</button>
+                    <img style="height: 70vh;" src="images/cover/cover-1.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-flex justify-content-center mb-md-5 pb-md-5 ">
+                        <div class="w-75 ">
+                            <h1>Get Started Digital Learning</h1>
+                            <p>It is a long established fact that a reader will be distracted by the readable content of
+                                a
+                                page when looking at its layout.</p>
+                            <button class="btn btn-primary carousel-btn fs-5 btn-sm" type="submit">Get Started</button>
+                        </div>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="images/cover/cover-2_1320x700.jpg" class="d-block w-100" alt="...">
+                    <img style="height: 70vh;" src="images/cover/cover-2_1320x700.jpg" class="d-block w-100" alt="...">
                     <div class="carousel-caption d-none d-md-block">
-                        <h1>Get Started Digital Learning</h1>
-                        <p>It is a long established fact that a reader will be distracted by the readable content of a
-                            page when looking at its layout.</p>
-                        <button class="btn btn-primary carousel-btn fs-5" type="submit">Get Started</button>
-
+                        <div class="w-75 ">
+                            <h1>Get Started Digital Learning</h1>
+                            <p>It is a long established fact that a reader will be distracted by the readable content of
+                                a
+                                page when looking at its layout.</p>
+                            <button class="btn btn-primary carousel-btn fs-5" type="submit">Get Started</button>
+                        </div>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="images/cover/cover-3.jpg" class="d-block w-100" alt="...">
+                    <img style="height: 70vh;" src="images/cover/cover-3.jpg" class="d-block w-100" alt="...">
                     <div class="carousel-caption d-none d-md-block">
-                        <h1>Get Started Digital Learning</h1>
-                        <p>It is a long established fact that a reader will be distracted by the readable content of a
-                            page when looking at its layout.</p>
-                        <button class="btn btn-primary carousel-btn fs-5" type="submit">Get Started</button>
-
+                        <div class="w-75 ">
+                            <h1>Get Started Digital Learning</h1>
+                            <p>It is a long established fact that a reader will be distracted by the readable content of
+                                a
+                                page when looking at its layout.</p>
+                            <button class="btn btn-primary carousel-btn fs-5" type="submit">Get Started</button>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -104,7 +102,7 @@
                 looking at its layout.</p>
         </div>
         <div class="row g-3">
-            <div class="col-6 ">
+            <div class="col-lg-6 col-md-12 col-sm-12">
                 <div class="d-flex rounded-1 border border-1 gap-4 courses-img">
                     <div>
                         <img src="images/course/course-1.png" alt="">
@@ -116,7 +114,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-6 ">
+            <div class="col-lg-6 col-md-12 col-sm-12 ">
                 <div class="d-flex rounded-1 border border-1 gap-4 courses-img">
                     <div>
                         <img src="images/course/course-2.png" alt="">
@@ -128,7 +126,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-6 ">
+            <div class="col-lg-6 col-md-12 col-sm-12 ">
                 <div class="d-flex rounded-1 border border-1 gap-4 courses-img">
                     <div>
                         <img src="images/course/course-3.png" alt="">
@@ -140,7 +138,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-6 ">
+            <div class="col-lg-6 col-md-12 col-sm-12 ">
                 <div class="d-flex rounded-1 border border-1 gap-4 courses-img">
                     <div>
                         <img src="images/course/course-4.png" alt="">
@@ -152,7 +150,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-6 ">
+            <div class="col-lg-6 col-md-12 col-sm-12 ">
                 <div class="d-flex rounded-1 border border-1 gap-4 courses-img">
                     <div>
                         <img src="images/course/course-5.png" alt="">
@@ -164,7 +162,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-6 ">
+            <div class="col-lg-6 col-md-12 col-sm-12 ">
                 <div class="d-flex rounded-1 border border-1 gap-4 courses-img">
                     <div>
                         <img src="images/course/course-6.png" alt="">
